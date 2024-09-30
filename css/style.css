@@ -17,56 +17,63 @@
 
 /* # HEADER */
 
-.header-container{
-  
-}
-
 header > .container{
-  
+  max-width: 100%;
+  background-color: white;
+  text-align: center;
+
 }
 
 .header-title{
-  font:"Nerko One" curisve;
+  font-family: "Nerko One", cursive;
   color:#ff9614;
+  font-size: 30px;
+  padding:20px 0px;
+  max-width: 100%;
 
 }
+
 
 /* quando salgo sopra i 576 px */
 @media screen and (min-width:576px){
 
-  .header-title{
-    font:"Nerko One" curisve;
-    color:red;
+  header > .container{
+    text-align:left;
   
   }
-
+  
 }
-
-
 
 
 /* quando salgo sopra i 768px px */
 @media screen and (min-width:768px){
 
-  .header-title{
-    font:"Nerko One" curisve;
-    color:pink;
+  header > .container{
+    text-align:left;
+    width: auto;
+
+  
+  }
+  
+}
+
+
+/* quando salgo sopra i 992px px */
+@media screen and (min-width:992px){
+
+  header > .container{
+    text-align: left;
+    width: auto;
+   
+    
   
   }
 
 }
 
 
+/* # BODY */
 
-
-/* quando salgo sopra i 992px px */
-@media screen and (min-width:992px){
-
-  .header-title{
-    font:"Nerko One" curisve;
-    color: yellow;
-  
-  }
-
-
+body{
+  background-color: #f6f5f3;
 }
