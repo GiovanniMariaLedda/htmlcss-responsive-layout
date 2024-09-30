@@ -27,6 +27,7 @@ header > .container{
   max-width: 100%;
   background-color: white;
   text-align: center;
+  width: auto;
 
 }
 
@@ -46,6 +47,8 @@ main{
   padding-left: 15px;
 }
 
+/* # CATEGORIES CONTAINER */
+
 .categories-container{
   padding: 17px 0px;
 
@@ -56,6 +59,8 @@ main{
   font-weight: lighter;
 }
 
+/* # DESSERTS CONTAINER */
+
 .desserts-container{
 padding-bottom: 20px;
 
@@ -65,7 +70,38 @@ padding-bottom: 20px;
   color: #4e3969;
 }
 
+.traditional-desserts{
+  display: none;
+}
 
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.container-video{
+  
+  width: 450px;
+  height: 300px;
+}
+
+.list-in-breve{
+  background-color: white;
+}
+
+.list-in-breve ul {
+  list-style-type:none;
+}
+
+.list-in-breve h2{
+  padding: 25px 0px;
+}
+
+.main-list-item{
+ padding: 5px 0px;
+}
 
 
 
@@ -80,7 +116,10 @@ padding-bottom: 20px;
   .header-title{
     padding-left: 15px;
   }
-
+  .traditional-desserts{
+    display: inline-block;
+  }
+  
 }
 
 
@@ -90,15 +129,15 @@ padding-bottom: 20px;
   header > .container{
     width: auto;
   }
+  main > header > div .container{
   
-
+  }
   
 }
 
 
 /* quando salgo sopra i 992px px */
 @media screen and (min-width:992px){
-
 
 }
 
