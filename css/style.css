@@ -77,22 +77,23 @@ padding-bottom: 20px;
 .main-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  
+  width:100%;
 }
 
 .container-video{
   
-  width: 450px;
-  height: 300px;
+  width: 100%;
+  
 }
 
 .list-in-breve{
   background-color: white;
+  padding-left: 25px;
 }
 
 .list-in-breve ul {
   list-style-type:none;
+  padding-bottom: 50px;
 }
 
 .list-in-breve h2{
@@ -119,7 +120,10 @@ padding-bottom: 20px;
   .traditional-desserts{
     display: inline-block;
   }
-  
+  .list-in-breve ul {
+    text-align: 
+
+  }
 }
 
 
@@ -138,6 +142,9 @@ padding-bottom: 20px;
 
 /* quando salgo sopra i 992px px */
 @media screen and (min-width:992px){
+  .main-container{
+    flex-direction: row;
+  }
 
 }
 
