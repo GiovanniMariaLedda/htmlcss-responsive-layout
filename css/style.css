@@ -15,6 +15,12 @@
   max-width: 100%;
 }
 
+/* # BODY */
+
+body{
+  background-color: #f6f5f3;
+}
+
 /* # HEADER */
 
 header > .container{
@@ -33,15 +39,48 @@ header > .container{
 
 }
 
+/* # MAIN */
+
+main{
+  font-family: Montserrat, 'Helvetica Neue', sans-serif;
+  padding-left: 15px;
+}
+
+.categories-container{
+  padding: 17px 0px;
+
+}
+.categories{
+  font-size: 18px;
+  color: #999999;
+  font-weight: lighter;
+}
+
+.desserts-container{
+padding-bottom: 20px;
+
+}
+
+.desserts-title{
+  color: #4e3969;
+}
+
+
+
+
+
+/* # MEDIA QUEREIS */
 
 /* quando salgo sopra i 576 px */
 @media screen and (min-width:576px){
 
   header > .container{
     text-align:left;
-  
   }
-  
+  .header-title{
+    padding-left: 15px;
+  }
+
 }
 
 
@@ -49,11 +88,10 @@ header > .container{
 @media screen and (min-width:768px){
 
   header > .container{
-    text-align:left;
     width: auto;
-
-  
   }
+  
+
   
 }
 
@@ -61,19 +99,7 @@ header > .container{
 /* quando salgo sopra i 992px px */
 @media screen and (min-width:992px){
 
-  header > .container{
-    text-align: left;
-    width: auto;
-   
-    
-  
-  }
 
 }
 
 
-/* # BODY */
-
-body{
-  background-color: #f6f5f3;
-}
