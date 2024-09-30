@@ -14,3 +14,59 @@
   width: 1000px;
   max-width: 100%;
 }
+
+/* # HEADER */
+
+.header-container{
+  
+}
+
+header > .container{
+  
+}
+
+.header-title{
+  font:"Nerko One" curisve;
+  color:#ff9614;
+
+}
+
+/* quando salgo sopra i 576 px */
+@media screen and (min-width:576px){
+
+  .header-title{
+    font:"Nerko One" curisve;
+    color:red;
+  
+  }
+
+}
+
+
+
+
+/* quando salgo sopra i 768px px */
+@media screen and (min-width:768px){
+
+  .header-title{
+    font:"Nerko One" curisve;
+    color:pink;
+  
+  }
+
+}
+
+
+
+
+/* quando salgo sopra i 992px px */
+@media screen and (min-width:992px){
+
+  .header-title{
+    font:"Nerko One" curisve;
+    color: yellow;
+  
+  }
+
+
+}
